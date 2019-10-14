@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.jpg">
+</head>
+<body>
+    <header>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">
+                <img src="images/v.png"alt="logo"></a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>  
+    </header>
+    <section class="form-section">
+        <div class="left">
+            <img src="images/team.png" alt="team">
+        </div>
+        <div class="right">
+            <h1>Get more things done with loggin platform</h1>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur.</p>
+            <strong>Register</strong>
+            <form> 
+                <div class="flex">
+                    <div class="item">
+                         <input type="text" placeholder="Your Full Name"> 
+                    </div>
+                    <div class="item">
+                        <input type="email" placeholder="Email Address">
+                    </div>
+                </div>
+                 <div class="flex">
+                    <div class="item">
+                          <input type="Password" placeholder="Your Password">
+                    </div>
+                    <div class="item">
+                         <input type="Password" placeholder="Re-type Password">
+                    </div>
+                </div>  
+
+            <select>
+                <option>Select Your Country</option>
+                <option value="bng">Bangladesh</option>
+                <option value="ind">Germany</option>
+                <option value="slov">Slovakia</option>
+                <option value="eng">England</option>  
+                <option value="can">Canada</option>  
+            </select>
+
+            <div class="flex">
+                    <div class="item">
+                             <b>What's Your Gender?</b><br> 
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Male</label>
+
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label>
+                    </div>
+                    <div class="item">
+                             <b>Are you Married?</b><br>
+                         <input type="checkbox" id="Married">
+                         <label for="married">Married</label>
+
+                         <input type="checkbox" id="Unmarried">
+                         <label for="unmarried">Unmarried</label>
+                    </div>
+                </div>
+            <textarea placeholder="Your messages/Feedback/Queries "rows="6"></textarea>
+            <input type="submit" value="Sign Up Here">          
+            </form> 
+        </div>
+    </section>
+</body>
+</html>
